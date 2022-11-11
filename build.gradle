@@ -27,10 +27,10 @@ dependencies{
     implementation('org.springframework.boot:spring-boot-starter-mustache')
 
     // lombok
-    implementation('org.projectlombok:lombok')
-    annotationProcessor('org.projectlombok:lombok')
-    testImplementation('org.projectlombok:lombok')
-    testAnnotationProcessor('org.projectlombok:lombok')
+    implementation('org.projectlombok:lombok:1.18.24')
+    annotationProcessor('org.projectlombok:lombok:1.18.24')
+    testImplementation('org.projectlombok:lombok:1.18.24')
+    testAnnotationProcessor('org.projectlombok:lombok:1.18.24')
 
 
     implementation('org.springframework.boot:spring-boot-starter-data-jpa')
@@ -38,7 +38,9 @@ dependencies{
     implementation('com.h2database:h2')
     testImplementation('org.springframework.boot:spring-boot-starter-test')
     implementation('org.springframework.boot:spring-boot-starter-mustache')
+    implementation('org.springframework.boot:spring-boot-starter-oauth2-client')
+    implementation('org.springframework.session:spring-session-jdbc')
 
-
+    testImplementation('org.springframework.security:spring-security-test')
 }
 
